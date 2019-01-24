@@ -104,22 +104,32 @@
 							while($objsearch = mysqli_fetch_array($query_search))
 							{
 								echo "<ul class='mt-2 list-group'>";
+								echo "<li class='list-group-item'>";
 								echo "PEA no. :".$objsearch["pea"]."<br>";
 								echo "Location :".$objsearch["location"]."<br>";
 								echo "ขนาด  :".$objsearch["kva"]."kva<br>";
 								echo "เฟส :".$objsearch["phase"]."<br>";
+								echo "</li>";
+								echo "<li class='list-group-item'>";
 								echo "กระแสเฟส A ด้านซ้าย :".$objsearch["current-a-l"]."A<br>";
 								echo "กระแสเฟส B ด้านซ้าย :".$objsearch["current-b-l"]."A<br>";
 								echo "กระแสเฟส C ด้านซ้าย :".$objsearch["current-c-l"]."A<br>";
+								echo "</li>";
+								echo "<li class='list-group-item'>";
 								echo "กระแสเฟส A ด้านขวา :".$objsearch["current-a-r"]."A<br>";
 								echo "กระแสเฟส B ด้านขวา :".$objsearch["current-b-r"]."A<br>";
 								echo "กระแสเฟส C ด้านขวา :".$objsearch["current-c-r"]."A<br>";
+								echo "</li>";
+								echo "<li class='list-group-item'>";
 								echo "แรงดันเฟส A ด้านซ้าย :".$objsearch["voltage-an-l"]."V<br>";
 								echo "แรงดันเฟส B ด้านซ้าย :".$objsearch["voltage-bn-l"]."V<br>";
 								echo "แรงดันเฟส C ด้านซ้าย :".$objsearch["voltage-cn-l"]."V<br>";
+								echo "</li>";
+								echo "<li class='list-group-item'>";
 								echo "แรงดันเฟส A ด้านขวา :".$objsearch["voltage-an-r"]."V<br>";
 								echo "แรงดันเฟส B ด้านขวา :".$objsearch["voltage-bn-r"]."V<br>";
 								echo "แรงดันเฟส C ด้านขวา :".$objsearch["voltage-cn-r"]."V<br>";
+								echo "</li>";
 								echo "</ul>";
 								
 							}
