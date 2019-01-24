@@ -99,10 +99,11 @@
 		<div class="container-fluid" >
 			<div class="row">
 				<div class="col-lg-4 offset-lg-4 well" >
-					<div class="list-group">
+					
 						<?php
 							while($objsearch = mysqli_fetch_array($query_search))
 							{
+								echo "<ul class='mt-2 list-group'>";
 								echo "PEA no. :".$objsearch["pea"]."<br>";
 								echo "Location :".$objsearch["location"]."<br>";
 								echo "ขนาด  :".$objsearch["kva"]."kva<br>";
@@ -119,10 +120,11 @@
 								echo "แรงดันเฟส A ด้านขวา :".$objsearch["voltage-an-r"]."V<br>";
 								echo "แรงดันเฟส B ด้านขวา :".$objsearch["voltage-bn-r"]."V<br>";
 								echo "แรงดันเฟส C ด้านขวา :".$objsearch["voltage-cn-r"]."V<br>";
+								echo "</ul>";
 								
 							}
 						?>
-					</div>
+					
 				</div>
 			</div>
 		</div>
