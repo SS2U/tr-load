@@ -74,13 +74,13 @@
 			</div>
 		</div>
 		<div class="container-fluid" >
-			<div class="row row-center">
-				<div class="col-lg-4 offset-lg-4" >
+			<div class="row">
+				<div class="col-lg-4 offset-lg-4 well" >
 					<div class="form-group">
 						<label for="usr">PEA no.:</label>
 						<input type="text" class="form-control" id="usr" name="username">
 					</div>
-					<button type="ค้นหา" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary btn-block">ค้นหา</button>
 				</div>
 			</div>
 		</div>
