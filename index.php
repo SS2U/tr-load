@@ -79,8 +79,8 @@
 					<div class="form-group">
 						<label for="usr">PEA no.:</label>
 						<input type="text" class="form-control" id="usr" name="username">
-						<button type="submit" class="btn btn-primary">Submit</button>
 					</div>
+					<button type="ค้นหา" class="btn btn-primary">Submit</button>
 				</div>
 			</div>
 		</div>
