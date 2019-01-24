@@ -104,7 +104,7 @@
 							while($objsearch = mysqli_fetch_array($query_search))
 							{
 								echo "<ul class='mt-2 list-group'>";
-								echo "<li class='list-group-item'>";
+								echo "<li class='list-group-item list-group-item-primary'>";
 								echo "PEA no. :".$objsearch["pea"]."<br>";
 								echo "Location :".$objsearch["location"]."<br>";
 								echo "ขนาด  :".$objsearch["kva"]."kva<br>";
