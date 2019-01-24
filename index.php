@@ -68,8 +68,19 @@
 	<body>
 		<div class="container-fluid" >
 			<div class="row row-center">
-				<div class="col-lg-4 offset-lg-4" style="background-color:#b461fb;">
+				<div class="col-lg-4 offset-lg-4" >
 					<h1>Tranformer Load</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" >
+			<div class="row row-center">
+				<div class="col-lg-4 offset-lg-4" >
+					<div class="form-group">
+						<label for="usr">PEA no.:</label>
+						<input type="text" class="form-control" id="usr" name="username">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
 				</div>
 			</div>
 		</div>
