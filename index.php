@@ -68,7 +68,7 @@
 	<body>
 		<div class="container-fluid" >
 			<div class="row row-center">
-				<div class="col-lg-4 offset-lg-3" style="background-color:#b461fb;">
+				<div class="col-lg-4 offset-lg-4" style="background-color:#b461fb;">
 					<h1>Tranformer Load</h1>
 				</div>
 			</div>
