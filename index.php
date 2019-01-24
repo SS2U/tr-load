@@ -100,11 +100,12 @@
 				<div class="col-lg-4 offset-lg-4 well" >
 					<div class="list-group">
 						<?php
-						while($objsearch = mysqli_fetch_array(query_search))
-						{
-							echo "PEA no.".$objsearch["pea"]."<br>";
-							echo "Location".$objsearch["location"]."<br>";
-						}
+								while($objsearch = mysqli_fetch_array(query_search))
+							{
+								echo "PEA no.".$objsearch["pea"]."<br>";
+								echo "Location".$objsearch["location"]."<br>";
+							}
+						?>
 					</div>
 				</div>
 			</div>
