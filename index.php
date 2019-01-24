@@ -98,7 +98,7 @@
 		</div>
 		<div class="container-fluid" >
 			<div class="row">
-				<div class="col-lg-4 offset-lg-4 well" >
+				<div class="col-lg-4 offset-lg-4" >
 					
 						<?php
 							while($objsearch = mysqli_fetch_array($query_search))
