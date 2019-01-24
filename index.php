@@ -71,8 +71,8 @@
 			$keyword = $_GET["keyword"];
 			if(isset($keyword))
 			{
-				echo "ttttttttttt";
-				$sql_search ="SELECT * FROM tbl_tr-load WHERE pea LIKE '%".$keyword."%'";
+			
+				$sql_search ="SELECT * FROM tbl_tr WHERE pea LIKE '%".$keyword."%'";
 				$query_search = mysqli_query($conn,$sql_search);
 			}
 		?>
