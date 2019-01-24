@@ -66,6 +66,12 @@
 		</style>
 	</head>
 	<body>
-		<input type="text" class="form-control" id="usr" name="username">
+		<div class="container-fluid" >
+			<div class="row row-center">
+				<div class="col-lg-4 offset-lg-4">
+					<h1>Tranformer Load</h1>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
