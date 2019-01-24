@@ -66,6 +66,15 @@
 		</style>
 	</head>
 	<body>
+		<?php
+			require('connect-db.php');
+			$keyword = $_GET["keyword"];
+			if(isset($keyword))
+			{
+				$spl_search ="SELECT * FROM tbl_tr-load WHERE pea LIKE '%".$keyword."%'";
+				$query_search = mysqli_query($conn,$sql_search);
+			}
+		?>
 		<div class="container-fluid" >
 			<div class="row row-center">
 				<div class="col-lg-4 offset-lg-4" >
@@ -76,11 +85,27 @@
 		<div class="container-fluid" >
 			<div class="row">
 				<div class="col-lg-4 offset-lg-4 well" >
-					<div class="form-group">
-						<label for="usr">PEA no.:</label>
-						<input type="text" class="form-control" id="usr" name="username">
+					<form action="https://tr-load-ptm.herokuapp.com/" method="get">
+						<div class="form-group">
+							<label for="usr">PEA no.:</label>
+							<input type="text" class="form-control" id="usr" name="keyword">
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">ค้นหา</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" >
+			<div class="row">
+				<div class="col-lg-4 offset-lg-4 well" >
+					<div class="list-group">
+						<?php
+						while($objsearch = mysqli_fetch_array(query_search))
+						{
+							echo "PEA no.".$objsearch["pea"]."<br>";
+							echo "Location".$objsearch["location"]."<br>";
+						}
 					</div>
-					<button type="submit" class="btn btn-primary btn-block">ค้นหา</button>
 				</div>
 			</div>
 		</div>
