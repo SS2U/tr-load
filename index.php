@@ -93,7 +93,7 @@
 						</div>
 						<button type="submit" class="btn btn-primary btn-block">ค้นหา</button>
 						<p>&nbsp;</p>
-                        			<button type="button" href="addload.html" class="btn btn-primary btn-block">เพิ่มข้อมูลหม้อแปลง</button>
+                        			<a href="addload.html" class="btn btn-primary btn-block">เพิ่มข้อมูลหม้อแปลง</a>
 					</form>
 				</div>
 			</div>
