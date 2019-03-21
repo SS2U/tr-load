@@ -17,7 +17,44 @@
 	$V_BN_R = $_POST["V_BN_R"];
 	$V_CN_R = $_POST["V_CN_R"];
 		
-	$sql_text_insert = "INSERT INTO tbl_tr(pea,location,kva,phase,current-a-l,current-b-l,current-c-l,current-a-r,current-b-r,current-c-r,voltage-an-l,voltage-bn-l,voltage-cn-l,voltage-an-r,voltage-bn-r,voltage-cn-r) VALUES('$pea','$loc','$kva','$phase','$C_A_L','$C_B_L','$C_C_L','$C_A_R','$C_B_R','$C_C_R','$V_AN_L','$V_BN_L','$V_CN_L','$V_AN_R','$V_BN_R','$V_CN_R')";
+	/*$sql_text_insert = "
+						INSERT INTO tbl_tr(
+											pea
+											,location
+											,kva
+											,phase
+											,current-a-l
+											,current-b-l
+											,current-c-l
+											,current-a-r
+											,current-b-r
+											,current-c-r
+											,voltage-an-l
+											,voltage-bn-l
+											,voltage-cn-l
+											,voltage-an-r
+											,voltage-bn-r
+											,voltage-cn-r
+											) 
+										VALUES(
+												'$pea'
+												,'$loc'
+												,'$kva'
+												,'$phase'
+												,'$C_A_L'
+												,'$C_B_L'
+												,'$C_C_L'
+												,'$C_A_R'
+												,'$C_B_R'
+												,'$C_C_R'
+												,'$V_AN_L'
+												,'$V_BN_L'
+												,'$V_CN_L'
+												,'$V_AN_R'
+												,'$V_BN_R'
+												,'$V_CN_R')
+												";*/
+	$sql_text_insert = "INSERT INTO tbl_tr(pea,location) VALUES('999','888')";
 		
 	mysqli_query($conn,$sql_text_insert);
 	echo "Insert Complete.....";
