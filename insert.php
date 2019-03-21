@@ -17,7 +17,7 @@
 	$V_BN_R = $_POST["V_BN_R"];
 	$V_CN_R = $_POST["V_CN_R"];
 		
-	$sql_text_insert = "INSERT INTO tbl_tr(pea,location,kva,phase,current-a-l,current-b-l) VALUES('$pea','$loc','$kva','$phase','$C_A_L','$C_B_L')";
+	$sql_text_insert = "INSERT INTO tbl_tr(pea,location,kva,phase) VALUES('$pea','$loc')";
 		
 	mysqli_query($conn,$sql_text_insert);
 	echo "Insert Complete.....";
