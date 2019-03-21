@@ -1,7 +1,7 @@
 function insert()
 {
 	var pea = document.getElementById("pea").value;
-	var loc = document.getElementById("location").value;
+	var loc = document.getElementById("loc").value;
 	var kva = document.getElementById("kva").value;
 	var phase = document.getElementById("phase").value;
 	var C_A_L = document.getElementById("C_A_L").value;
@@ -19,7 +19,6 @@ function insert()
 	
 	
 	var formData = new FormData();
-	
 	formData.append('pea',pea);
 	formData.append('loc',loc);
 	formData.append('kva',kva);
