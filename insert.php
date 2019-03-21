@@ -54,7 +54,7 @@
 												,'$V_BN_R'
 												,'$V_CN_R')
 												";*/
-	$sql_text_insert = "INSERT INTO tbl_tr(pea) VALUES('999')";
+	$sql_text_insert = "INSERT INTO tbl_tr(pea) VALUES('$pea')";
 		
 	mysqli_query($conn,$sql_text_insert);
 	echo "Insert Complete.....";
