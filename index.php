@@ -79,7 +79,8 @@
 		<div class="container-fluid" >
 			<div class="row row-center">
 				<div class="col-lg-4 offset-lg-4" >
-					<h1>Tranformer Load</h1>
+					<h1>การไฟฟ้าส่วนภูมิภาคอำเภอโพธาราม</h1>
+					<h3>Tranformer Load</h3>
 				</div>
 			</div>
 		</div>
