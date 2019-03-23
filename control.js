@@ -57,3 +57,26 @@ function insert()
 			}
 	});
 }
+function search()
+{
+	var keyword = document.getElementById("keyword").value;
+	var formData = new FormData();
+	formData.append('keyword',keyword);
+	$.ajax({
+		url:'insert.php',
+		method:'POST',
+		data:formData,
+		async:true,
+		cache:false,
+		processData:false,
+		contentType:false,
+		success:function(response)
+		{
+			alert(response);
+		},
+		complete:function()
+		{
+			location.reload();
+		}
+});
+}
