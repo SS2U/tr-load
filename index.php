@@ -78,7 +78,7 @@
 		?>
 		<div class="jumbotron text-center">
 				<h1>การไฟฟ้าส่วนภูมิภาคอำเภอโพธาราม</h1>
-				<h3>Add Tranformer Load</h3>
+				<h2>ระบบฐานข้อมูลของโหลดหม้อแปลง</h2>
 		</div>
 		<div class="container-fluid" >
 			<div class="row">
@@ -90,7 +90,7 @@
 						</div>
 						<button type="submit" class="btn btn-primary btn-block">ค้นหา</button>
 						<p>&nbsp;</p>
-                        <a href="addload.html" class="btn btn-primary btn-block">เพิ่มข้อมูลหม้อแปลง</a>
+                        <a href="addload.html" class="btn btn-primary btn-block">เพิ่มฐานข้อมูลโหลดหม้อแปลง</a>
 					</form>
 				</div>
 			</div>
