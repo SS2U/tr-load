@@ -86,7 +86,7 @@
 					<form action="https://tr-load-ptm.herokuapp.com/" method="get">
 						<div class="form-group">
 							<label for="usr">PEA no.:</label>
-							<input type="text" class="form-control" id="usr" name="keyword">
+							<input type="text" class="form-control" id="usr" name="keyword" placeholder="กรุณากรอกหมายเลขของหม้อแปลง">
 						</div>
 						<button type="submit" class="btn btn-primary btn-block">ค้นหา</button>
 						<p>&nbsp;</p>
