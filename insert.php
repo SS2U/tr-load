@@ -1,6 +1,6 @@
 <?php
 	require('connect-db.php'); //เชื่อมต่อ database
-	$date = $_POST["dat"];
+	$dat = $_POST["dat"];
 	$pea = $_POST["pea"];
 	$loc = $_POST["loc"];
 	$kva = $_POST["kva"];
