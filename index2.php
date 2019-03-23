@@ -87,6 +87,10 @@
 		<div class="container-fluid" >
 			<div class="row">
 				<div class="col-lg-4 offset-lg-4" >
+                <div class="card">
+                    <div class="card-header">Header</div>
+                        <div class="card-body">Content</div> 
+</div>
 				</div>
 			</div>
 		</div>
