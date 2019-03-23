@@ -76,13 +76,9 @@
 				$query_search = mysqli_query($conn,$sql_search);
 			}
 		?>
-		<div class="container-fluid" >
-			<div class="row row-center">
-				<div class="col-lg-4 offset-lg-4" >
-					<h1>การไฟฟ้าส่วนภูมิภาคอำเภอโพธาราม</h1>
-					<h3>Tranformer Load</h3>
-				</div>
-			</div>
+		<div class="jumbotron text-center">
+				<h1>การไฟฟ้าส่วนภูมิภาคอำเภอโพธาราม</h1>
+				<h3>Add Tranformer Load</h3>
 		</div>
 		<div class="container-fluid" >
 			<div class="row">
