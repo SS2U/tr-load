@@ -1,5 +1,6 @@
 function insert()
 {
+	var data = document.getElementById("date").value;
 	var pea = document.getElementById("pea").value;
 	var loc = document.getElementById("loc").value;
 	var kva = document.getElementById("kva").value;
@@ -19,6 +20,7 @@ function insert()
 	
 	
 	var formData = new FormData();
+	formData.append('date',date);
 	formData.append('pea',pea);
 	formData.append('loc',loc);
 	formData.append('kva',kva);
