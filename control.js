@@ -73,6 +73,12 @@ function search()
 			success:function(response)
 			{
 				var obj = jQuery.parseJSON(response);
+				var content = document.getElementById("content");
+				var i = 0;
+				while(obj[i])
+				{
+					content.innerHTML = "<div class='card' id='card" + i + "'><></div></div>";
+				}
 			}
 		});
 }
