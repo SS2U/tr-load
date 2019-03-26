@@ -89,8 +89,13 @@
 			<div class="row">
 				<div class="col-lg-4 offset-lg-4" id="content" >
                     <div class="card">
-                        <div class="card-header">Pea No.:<i class="fas fa-edit"></i></div>
+                        <div class="card-header">
+													Pea No.:
+												</div>
                         <div class="card-body">Content</div> 
+												<div class="card-footer">
+												<button type="button" class="btn btn-primary">Edit</button>
+												</div>
                     </div>
 				</div>
 			</div>
